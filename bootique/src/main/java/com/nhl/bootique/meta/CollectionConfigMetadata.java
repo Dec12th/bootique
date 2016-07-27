@@ -4,8 +4,8 @@ import java.util.Collection;
 
 
 /**
- * Represents metadata of a configuration that is a collection of arbitrary subconfig properties, each one of a
- * predefined set of types.
+ * Represents metadata of a configuration that is a collection of arbitrary nested properties, each conforming to one of
+ * the predefined config types.
  *
  * @since 0.19
  */

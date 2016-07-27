@@ -11,8 +11,10 @@ public interface ConfigMetadataVisitor {
     default void visitObject(ObjectConfigMetadata metadata) {
     }
 
+
     default void visitList(ListConfigMetadata metadata) {
     }
+
 
     default void visitMap(MapConfigMetadata metadata) {
     }
