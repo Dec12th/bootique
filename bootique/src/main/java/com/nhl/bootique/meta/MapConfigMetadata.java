@@ -1,15 +1,9 @@
 package com.nhl.bootique.meta;
 
-import java.util.Collection;
-
 /**
- * Provides metadata for a configuration that is a map with user-provided keys and values are of one of the listed types.
+ * Represents metadata of a configuration that is a map with user-provided keys mapped to values of a set of predefined
+ * types.
  */
-public class MapConfigMetadata extends ConfigMetadata {
+public class MapConfigMetadata extends CollectionConfigMetadata {
 
-    private Collection<ConfigMetadata> valueTypes;
-
-    public Collection<ConfigMetadata> getValueTypes() {
-        return valueTypes;
-    }
 }

@@ -1,17 +1,17 @@
 package com.nhl.bootique.meta;
 
-import java.util.Collection;
+import java.util.Map;
 
 /**
- * Provides metadata for a configuration of a given type which may contain nested configuration objects.
+ * Represents metadata of a configuration that contains a fixed set of child configuration properties.
  *
  * @since 0.19
  */
 public class ObjectConfigMetadata extends ConfigMetadata {
 
-    private Collection<ConfigMetadata> properties;
+    private Map<String, ConfigMetadata> properties;
 
-    public Collection<ConfigMetadata> getProperties() {
+    public Map<String, ConfigMetadata> getProperties() {
         return properties;
     }
 }
