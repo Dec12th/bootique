@@ -10,7 +10,7 @@
 
 	<groupId>com.nhl.bootique</groupId>
 	<artifactId>bootique-framework-parent</artifactId>
-	<version>0.18-SNAPSHOT</version>
+	<version>0.19-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>bootique-framework-parent</name>
