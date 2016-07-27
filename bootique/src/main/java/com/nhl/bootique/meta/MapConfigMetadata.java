@@ -6,4 +6,8 @@ package com.nhl.bootique.meta;
  */
 public class MapConfigMetadata extends CollectionConfigMetadata {
 
+    @Override
+    public void accept(ConfigMetadataVisitor visitor) {
+        visitor.visitMap(this);
+    }
 }

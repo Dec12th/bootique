@@ -14,4 +14,9 @@ public class ObjectConfigMetadata extends ConfigMetadata {
     public Map<String, ConfigMetadata> getProperties() {
         return properties;
     }
+
+    @Override
+    public void accept(ConfigMetadataVisitor visitor) {
+        visitor.visitObject(this);
+    }
 }

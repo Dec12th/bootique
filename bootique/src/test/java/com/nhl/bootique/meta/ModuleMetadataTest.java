@@ -11,8 +11,8 @@ public class ModuleMetadataTest {
     @Test
     public void testBuilder() {
 
-        ConfigMetadata cm1 = ConfigMetadata.builder().build();
-        ConfigMetadata cm2 = ConfigMetadata.builder().build();
+        ConfigMetadata cm1 = ValueConfigMetadata.builder().build();
+        ConfigMetadata cm2 = ValueConfigMetadata.builder().build();
 
         ModuleMetadata mmd = ModuleMetadata.builder().name("xx").description("desc").config(cm1).config(cm2).build();
         assertNotNull(mmd);

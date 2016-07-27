@@ -7,4 +7,8 @@ package com.nhl.bootique.meta;
  */
 public class ListConfigMetadata extends CollectionConfigMetadata {
 
+    @Override
+    public void accept(ConfigMetadataVisitor visitor) {
+        visitor.visitList(this);
+    }
 }
