@@ -42,7 +42,7 @@ import java.util.function.Supplier;
 public class Bootique {
 
     protected Collection<BQModuleProvider> providers;
-    private String[] args;
+    private String[] ar
     private boolean autoLoadModules;
     private BootLogger bootLogger;
 
